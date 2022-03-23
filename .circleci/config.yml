@@ -5,9 +5,6 @@ orbs:
   aws-elastic-beanstalk: circleci/aws-elastic-beanstalk@2.0.1
 jobs:
   build:
-    filters:
-      branches:
-        only: main
     docker:
       - image: "cimg/base:stable"
     steps:
@@ -39,3 +36,10 @@ jobs:
           name: Deploy Ui
           command: |
             npm run frontend:deploy
+workflows:
+  udagram:
+    jobs:
+      - build:
+        filters:
+          branches:
+           only: main
