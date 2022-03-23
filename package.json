@@ -3,6 +3,8 @@
     "scripts": {
         "frontend:install": "cd ui && npm install",
         "backend:install": "cd api && npm install",
+        "frontend:test": "cd ui && npm run tests",
+        "backend:test": "cd api && npm run test",
         "frontend:build": "cd ui && npm run build",
         "backend:build": "cd api && npm run build",
         "frontend:deploy": "cd ui && npm run deploy",

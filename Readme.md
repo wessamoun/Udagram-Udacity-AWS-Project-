@@ -6,3 +6,5 @@ In this project we will take a newly developed Full-Stack application built for 
 we will then register for a free account on CircleCi and connect your Github account to it. Based on the manual steps used to deploy the app, we will write a config.yml file that will make the process reproducible in CircleCi. we will set up the process to be executed automatically based when code is pushed on the main Github branch.
 
 hosted working Front-End Application link : http://final-project2312.s3-website-us-east-1.amazonaws.com
+
+[![wessamoun](https://circleci.com/gh/wessamoun/Udagram-Udacity-AWS-Project-.svg?style=svg)](https://app.circleci.com/pipelines/github/wessamoun)
